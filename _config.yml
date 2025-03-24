@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Janson's Blog
+subtitle: 'Just for fun'
+description: 'Just for fun'
 keywords:
-author: John Doe
+author: Janson
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://janson653.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,3 +104,9 @@ deploy:
   type: git
   repo: https://github.com/janson653/janson653.github.io.git
   branch: main
+
+prism_plugin:
+  mode: 'preprocess'    # 可选值：'preprocess' 或 'real-time'
+  theme: 'default'      # 主题名称
+  line_number: false    # 是否显示行号
+  custom_css: ''        # 自定义CSS文件路径

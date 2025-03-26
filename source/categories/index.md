@@ -1,4 +1,5 @@
 ---
 title: categories
-date: 2025-03-24 23:13:58
+date: 2025-03-26
+type: "categories"
 ---
